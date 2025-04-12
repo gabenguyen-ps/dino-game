@@ -23,8 +23,7 @@ const minObstacleGap = 150;
 const hitboxPadding = 8;
 
 const dinoFrames = [
-    "dino_frame1.png", // Replace with your actual image paths
-    "dino_frame2.png"
+    "dino_frame2.png", // Replace with your actual image paths
 ];
 
 const dinoImage = new Image();
