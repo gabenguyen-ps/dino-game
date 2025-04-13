@@ -137,12 +137,3 @@ document.addEventListener("keydown", (event) => {
 });
 
 gameLoop();
-
-// 🟢 Mobile: Tap anywhere on the screen to jump
-canvas.addEventListener("touchstart", (event) => {
-    event.preventDefault(); // prevent scrolling
-    if (!isJumping) {
-        isJumping = true;
-        jumpVelocity = initialJumpVelocity;
-    }
-}, { passive: false });
